@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506072371391" stop="1506072400356" version="1.4.14" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>lesson10.Test</name>
+    <test-cases>
+        <test-case start="1506072371422" stop="1506072388715" status="passed">
+            <name>pressFind</name>
+            <title>Test1</title>
+            <description type="text">search in yandex</description>
+            <steps>
+                <step start="1506072384470" stop="1506072385018" status="passed">
+                    <name>input[[[ChromeDriver: chrome on XP (fefd651d448d717f101adf2d4edbe0e5)] -&gt; xpath: (//span[@class="input__box"]/input)[3]]...]</name>
+                    <title>input data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506072385129" stop="1506072387173" status="passed">
+                    <name>click[[[ChromeDriver: chrome on XP (fefd651d448d717f101adf2d4edbe0e5)] -&gt; xpath: //button[@class='button suggest2-form__...]</name>
+                    <title>click on button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="1056@VMokrinskiy.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506072388715" stop="1506072400356" status="passed">
+            <name>getToHomePage</name>
+            <title>Test2</title>
+            <description type="text">Log in mail.yandex</description>
+            <steps>
+                <step start="1506072394923" stop="1506072395134" status="passed">
+                    <name>input[[[ChromeDriver: chrome on XP (f3dd12434a130a100ca2403c63af2289)] -&gt; xpath: //input[@name='login']], riddler1391]</name>
+                    <title>input data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506072395168" stop="1506072395293" status="passed">
+                    <name>input[[[ChromeDriver: chrome on XP (f3dd12434a130a100ca2403c63af2289)] -&gt; xpath: //input[@name='passwd']], 1234Qwe]</name>
+                    <title>input data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1506072395334" stop="1506072396703" status="passed">
+                    <name>click[[[ChromeDriver: chrome on XP (f3dd12434a130a100ca2403c63af2289)] -&gt; xpath: //button[contains(@class,'auth__button'...]</name>
+                    <title>click on button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Message" source="a04e092c-3ef1-4951-af3d-33a2915f253f-attachment.txt" type="text/plain" size="9"/>
+            </attachments>
+            <labels>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="1056@VMokrinskiy.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
